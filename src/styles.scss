@@ -7,45 +7,49 @@ body {
     height: 100vh;
 }
 
-#container {
-/* SideBar */
-   display: grid;
-   grid-template-columns: 70px auto;
-   height: 100%;
-
-   #content {
-       padding: 30px 50px;
-
-       ul {
-           list-style-type: none;
-           margin:0;padding:0;
-       
-           li {
-               background: #fff;
-               border-radius: 8px;
-               padding: 20px;
-               margin-bottom: 8px;
-       
-               a {
-                   font-size: 1.5em;
-                   text-decoration: none;
-                   font-weight: bold;
-                   color:#00A8FF;
-               }
-       
-               ul {
-                   margin-top: 20px;
-                   
-                   li {
-                       padding:0;
-       
-                       a {
-                           font-size: 1em;
-                           font-weight: 300;
-                       }
-                   }
-               }
-           }
-       }
-   }
+h1.title{
+    font-family: cursive;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 90px;
 }
+
+header{
+    background-color:#696969 ;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    padding: 90px;
+    color: white;
+}
+
+//NAV BAR
+
+ul {
+    margin: 0 auto;
+    padding: 2px;
+    width: 800px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    padding-left: 100px;
+    padding-right: 100px; 
+    padding-top: 12px;  
+    padding-bottom: 12px;
+    display: block;
+    color: white;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+//end of nav bar

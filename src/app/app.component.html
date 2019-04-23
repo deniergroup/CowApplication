@@ -1,7 +1,37 @@
-<div id= "container">
-  <app-sidebar></app-sidebar>
+<!-- <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+    <div class="container">
+        <a class="navbar-brand"></a>
+        <ul class="nav navbar-nav" routerLinkActive="active">
+            <li class="nav-item"><a class="nav-link" class="color" routerLink="home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" class="color" routerLink="about-us">About</a></li>
+        </ul>
+    </div>
+</nav>
 
-  <div id="content">
-    <router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+<!-- 
+<ul class="nav navbar-nav" routerLinkActive="active">
+    <li class="nav-item"><a class="nav-link" class="color" routerLink="">Home</a></li>
+    <li class="nav-item"><a class="nav-link" class="color" routerLink="about-us">About</a></li>
+</ul>
+
+<router-outlet></router-outlet> -->
+<header>
+  <p>
+    This is where an image will be.
+  </p>
+</header>
+
+<h1 class="title">Rent a Cow</h1>
+
+<nav>
+  <div class="table">
+    <ul id="horizontal-list" routerLinkActive="active">
+      <li><a routerLink="home">Home</a></li>
+      <li><a routerLink="about-us">About</a></li>
+      <li><a routerLink="show-cows">Show Cows</a></li>
+    </ul>
   </div>
-</div>
+</nav>
+
+<router-outlet></router-outlet>
